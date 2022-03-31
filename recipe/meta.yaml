@@ -18,12 +18,12 @@ build:
     - phylip_parse=gctree.phylip_parse:main
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.7,<3.10
   run:
     - biopython
     - ete3
@@ -33,7 +33,7 @@ requirements:
     - multiset
     - pandas
     - pyqt
-    - python >=3.7
+    - python >=3.7,<3.10
     - scipy
     - seaborn
 
