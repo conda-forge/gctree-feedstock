@@ -1,5 +1,5 @@
 {% set name = "gctree" %}
-{% set version = "4.0.0" %}
+{% set version = "4.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/gctree-{{ version }}.tar.gz
-  sha256: 4a160d3db50ac3c2643bc2f766dc8b34341c64d465bcd2f8901c0cd06b4bad9d
+  sha256: 9bee7a15f261eb96ed60d8df267d395f89ef28dec4de5381149e5b8b69c7bcf1
 
 build:
   entry_points:
@@ -18,7 +18,7 @@ build:
     - phylip_parse=gctree.phylip_parse:main
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
