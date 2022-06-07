@@ -18,7 +18,7 @@ build:
     - phylip_parse=gctree.phylip_parse:main
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -28,7 +28,7 @@ requirements:
     - biopython
     - ete3
     - frozendict
-    - historydag
+    - historydag >=1
     - matplotlib-base
     - multiset
     - pandas
