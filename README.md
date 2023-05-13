@@ -1,11 +1,11 @@
-About gctree
-============
+About gctree-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gctree-feedstock/blob/main/LICENSE.txt)
 
 Home: https://matsengrp.github.io/gctree
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gctree-feedstock/blob/main/LICENSE.txt)
 
 Summary: phylogenetic inference of genotype-collapsed trees
 
