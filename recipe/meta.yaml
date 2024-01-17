@@ -1,5 +1,5 @@
 {% set name = "gctree" %}
-{% set version = "4.1.1" %}
+{% set version = "4.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/gctree-{{ version }}.tar.gz
-  sha256: 79b1c998129bb27ee395da360b191b44c251caec4c88a62c1f23300c2fe22610
+  sha256: ebab54634d3a92efb2e4d58d8b9b2c61352ef5aa10b3f923f89e306a8f379bea
 
 build:
   entry_points:
